@@ -24,11 +24,11 @@ function sayHiToGrandma(string) {
     return("YES INDEED!");
   }
   
-  else if (string === lower) {
+  if (string === lower) {
     return ("I can't hear you!");
   }
   
-  else if(string === love ) {
+  if(string === love ) {
     return("I love you, too.");
   }
 }
